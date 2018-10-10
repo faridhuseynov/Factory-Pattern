@@ -20,7 +20,6 @@ namespace Factory_DP
             creator[3] = new ZetCreator();
             creator[4] = new ZetReverseCreator();
             creator[5] = new TriangleCreator();
-            //creator[1] = new LUpCreator();
             foreach (var item in creator)
             {
                 //get the figure type and then with if set the color
